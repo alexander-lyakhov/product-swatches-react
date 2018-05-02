@@ -1,0 +1,22 @@
+.swatches {
+    background: #e0e0e0;
+    width: 138px;
+    padding: 1px;
+    float: left;
+}
+
+.swatch-list {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.swatch-list__item {
+    background: #606060;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
